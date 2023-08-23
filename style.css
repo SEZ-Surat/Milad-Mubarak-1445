@@ -16,6 +16,15 @@ body {
     margin: 0;
 }
 
+@media (max-width: 710px) {
+  body {
+    background-image: url("potrait.jpeg");
+    background-size: cover;
+    background-position: top center;
+  }
+  
+}
+
 h1 {
     width: fit-content;
     background-color: #2D0606;
